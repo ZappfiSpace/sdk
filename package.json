@@ -1,0 +1,14 @@
+{
+  "name": "zappfi",
+  "version": "1.0.0",
+  "description": "Zappfi - Decentralized M&A Protocol",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost",
+    "test": "npx hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.20.0"
+  }
+}
